@@ -1,0 +1,3 @@
+Test
+Open notepad and show text in Notepad
+Change text for new text!
