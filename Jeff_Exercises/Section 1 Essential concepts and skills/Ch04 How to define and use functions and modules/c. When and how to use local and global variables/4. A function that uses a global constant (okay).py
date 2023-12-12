@@ -4,11 +4,11 @@
 
 # Title
 # Code for Bold face text
-start  = "\033[1m"
+start = "\033[1m"
 end = "\033[0;0m"
 print(start + '\nWhen and how to use local and global variables' + end)
 print(start + '- A function that uses a global constant (okay) -' + end)
-print('-'*60)
+print('-' * 60)
 
 # code
 print('TAX_RATE = 0.05                     # TAX_RATE is a global constant')

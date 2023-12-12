@@ -6,5 +6,5 @@ print('\nHow to call How to code if statements string method')
 print()
 
 # row 1
-string1 = ('variablename.methodname()')
+string1 = 'variablename.methodname()'
 print('{}'.format(string1))

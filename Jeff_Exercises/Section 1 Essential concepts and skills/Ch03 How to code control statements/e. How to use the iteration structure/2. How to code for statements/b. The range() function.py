@@ -3,7 +3,7 @@
 # Murach's Python programming 2 edition
 
 # Code for Bold face text
-start  = "\033[1m"
+start = "\033[1m"
 end = "\033[0;0m"
 
 # Title
@@ -16,7 +16,7 @@ print()  # Blank line before table
 print(f"{Col1:50s} {Col2}")
 
 # print a line of dashes
-print("-"*80)
+print("-" * 80)
 
 # print output
 print(f"{'range(stop)':50}{'Return integer values from 0 to the stop value, but'}")

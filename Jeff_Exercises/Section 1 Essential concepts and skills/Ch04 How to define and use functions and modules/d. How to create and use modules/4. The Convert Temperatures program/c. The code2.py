@@ -1,10 +1,12 @@
 import tempature as temp
 
+
 def display_menu():
     print("MENU")
     print("1. Fahrenheit to Celsius")
     print("2. Celsius to Fahrenheit")
     print()
+
 
 def convert_temp():
     option = int(input("Enter a menu option: "))
@@ -21,6 +23,7 @@ def convert_temp():
     else:
         print('You must enter a valid menu number')
 
+
 def main():
     display_menu()
     again = 'y'
@@ -30,6 +33,7 @@ def main():
         again = input("Convert another temperature? (y/n)")
         print()
     print('Bye!')
+
 
 if __name__ == "__main__":
     main()

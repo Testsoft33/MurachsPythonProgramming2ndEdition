@@ -8,7 +8,7 @@ columns = ['Operator', 'Name', 'Description']
 # Specify the column names, while initializing the table
 # myTable = PrettyTable({'Operator', 'Name', 'Description'})
 
-# Specify the Column Names whil initializing the Table
+# Specify the Column Names while initializing the Table
 myTable = PrettyTable(['Operator', 'Name', 'Description'])
 
 

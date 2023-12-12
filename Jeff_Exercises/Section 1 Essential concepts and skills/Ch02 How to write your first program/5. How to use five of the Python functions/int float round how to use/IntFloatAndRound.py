@@ -4,23 +4,22 @@
 # int() function
 x = 15
 y = '5'
-z = x +  int(y)
+z = x + int(y)
 print('#1 is: ', z)
 print()
 
 # Code that gets int value from the user
-quantity = input('Enter the quanity: ')     # quantity is string type
-quantity = int(quantity)        # quantity is int type
+quantity = input('Enter the quanity: ')  # quantity is string type
+quantity = int(quantity)  # quantity is int type
 print('#2 Quantity is: ', quantity)
 
 # How to use chaining to get the int value in one statement
 quantity = int(input('\nEnter the quantity: '))
 print('#3 Quantity is now: ', quantity)
 
-
 # Code that gets How to code if statements float value from the user
-price = input('\nEnter the price: ')      # price is string type
-price = float(price)        # price is float type
+price = input('\nEnter the price: ')  # price is string type
+price = float(price)  # price is float type
 print('#4 Price is: ', price)
 
 # How to use chaining to get the float value in one statement

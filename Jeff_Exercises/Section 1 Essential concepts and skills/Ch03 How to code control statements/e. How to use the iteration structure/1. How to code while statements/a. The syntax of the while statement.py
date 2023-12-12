@@ -7,9 +7,9 @@ print('\nThe syntax of the while statement')
 print()
 
 # section 1
-string1 = ('while boolean_expression:')
-string2 = ('statements...')
+string1 = 'while boolean_expression:'
+string2 = 'statements...'
 
- # Print strings
+# Print strings
 print('{}\n       {}'.format(
     string1, string2))

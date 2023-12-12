@@ -5,7 +5,7 @@
 def get_float(prompt, low, high):
     while True:
         number = float(input(prompt))
-        if number > low and number <= high:
+        if low < number <= high:
             return number
         else:
             print('Entry must be greater than', low,
@@ -14,7 +14,7 @@ def get_float(prompt, low, high):
 def get_int(prompt, low, high):
     while True:
         number = int(input(prompt))
-        if number > low and number <= high:
+        if low < number <= high:
             return number
         else:
             print('Entry must be greater than', low,
